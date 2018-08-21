@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/alarm.svg</file>
+        <file>icons/date.svg</file>
+        <file>icons/stopwatch.svg</file>
+        <file>icons/timer.svg</file>
+        <file>icons/CoreTime.svg</file>
+    </qresource>
+</RCC>
