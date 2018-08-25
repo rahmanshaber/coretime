@@ -23,7 +23,7 @@ coretime::coretime(QWidget *parent) :QWidget(parent),ui(new Ui::coretime)
     ui->setupUi(this);
 
     // set stylesheet from style.qrc
-    setStyleSheet(Utilities::getStylesheetFileContent(":/appStyle/style/CoreTime.qss"));
+    setStyleSheet(Utilities::getStylesheetFileContent(Utilities::StyleAppName::CoreTimeStyle));
 
     // set window size
     int x = static_cast<int>(Utilities::screensize().width()  * .8);
