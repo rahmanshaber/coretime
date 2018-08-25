@@ -40,7 +40,7 @@ along with this program; if not, see {http://www.gnu.org/licenses/}. */
 #include <QListWidgetItem>
 #include <QCalendarWidget>
 
-#include "utilities.h"
+#include <cprime/utilities.h>
 
 
 namespace Ui {

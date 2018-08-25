@@ -14,8 +14,6 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program; if not, see {http://www.gnu.org/licenses/}. */
 
-#include "utilities.h"
-#include "settingsmanage.h"
 #include "coretime.h"
 
 #include <QApplication>
@@ -25,6 +23,9 @@ along with this program; if not, see {http://www.gnu.org/licenses/}. */
 #include <QProcess>
 #include <QStandardPaths>
 #include <QDir>
+
+#include <cprime/utilities.h>
+#include <cprime/settingsmanage.h>
 
 
 void startSetup()

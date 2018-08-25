@@ -31,7 +31,7 @@ class Timer : public QObject
 
 public:
     void StartTimer(Alarm*);
-    explicit Timer(QObject *parent = 0,ScheduleCollection* Collection=0);
+    explicit Timer(QObject *parent = nullptr,ScheduleCollection* Collection=nullptr);
 
 private:
     Alarm *_CurAlarm;
