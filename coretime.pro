@@ -69,7 +69,7 @@ unix {
         desktop.path = $$PREFIX/share/applications/
         desktop.files = "CoreTime.desktop"
 
-        icons.path = $$PREFIX/share/icons/CoreApps/
+        icons.path = $$PREFIX/share/coreapps/icons/
         icons.files = icons/CoreTime.svg
 
         INSTALLS += target icons desktop
