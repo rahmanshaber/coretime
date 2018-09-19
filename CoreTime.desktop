@@ -4,6 +4,6 @@ Comment=CoreTime is a time related task app from CoreApps.
 Exec=coretime
 Icon=/usr/share/coreapps/icons/CoreTime.svg
 Type=Application
-Categories=Qt;Utility;
+Categories=Utility;Qt;
 Terminal=false
 StartupNotify=true

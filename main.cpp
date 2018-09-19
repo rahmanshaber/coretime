@@ -33,9 +33,11 @@ void startSetup()
     QApplication::setStyle(QStyleFactory::create("Fusion"));
 
     // set all the requried folders
-    Utilities::setupFolder(Utilities::FolderSetup::BookmarkFolder);
-    Utilities::setupFolder(Utilities::FolderSetup::DriveMountFolder);
-    Utilities::setupFolder(Utilities::FolderSetup::TrashFolder);
+    Utilities::setupFileFolder(Utilities::FileFolderSetup::BookmarkFolder);
+    Utilities::setupFileFolder(Utilities::FileFolderSetup::DriveMountFolder);
+    Utilities::setupFileFolder(Utilities::FileFolderSetup::TrashFolder);
+    Utilities::setupFileFolder(Utilities::FileFolderSetup::MimeFile);
+
 
     // if setting file not exist create one with defult
     SettingsManage sm;
@@ -48,6 +50,7 @@ void startSetup()
     QFont fl (sm.getFontStyle(), 10, QFont::Normal);
     QApplication::setFont(fl);
 }
+
 
 int main(int argc, char *argv[])
 {
