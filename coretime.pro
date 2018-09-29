@@ -67,10 +67,10 @@ unix {
         target.path = $$BINDIR
 
         desktop.path = $$PREFIX/share/applications/
-        desktop.files = "CoreTime.desktop"
+        desktop.files = "coretime.desktop"
 
         icons.path = $$PREFIX/share/coreapps/icons/
-        icons.files = icons/CoreTime.svg
+        icons.files = icons/coretime.svg
 
         INSTALLS += target icons desktop
 }

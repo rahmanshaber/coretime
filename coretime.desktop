@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=CoreTime
+Comment=CoreTime is a time related task app from CoreApps.
+Exec=coretime
+Icon=/usr/share/coreapps/icons/coretime.svg
+Type=Application
+Categories=Utility;Qt;
+Terminal=false
+StartupNotify=true

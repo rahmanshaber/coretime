@@ -1,7 +1,7 @@
 # CoreTime
 An app of CoreApps family.CoreTime is a time related task app.
 
-<img src="CoreTime.png" width="500">
+<img src="coretime.png" width="500">
 
 ### Download
 

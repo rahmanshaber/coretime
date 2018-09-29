@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>889</width>
-    <height>616</height>
+    <height>660</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset resource="icons.qrc">
-    <normaloff>:/icons/CoreTime.svg</normaloff>:/icons/CoreTime.svg</iconset>
+    <normaloff>:/icons/coretime.svg</normaloff>:/icons/coretime.svg</iconset>
   </property>
   <layout class="QGridLayout" name="gridLayout_2">
    <property name="leftMargin">
@@ -99,7 +99,7 @@
         </property>
         <property name="icon">
          <iconset resource="icons.qrc">
-          <normaloff>:/icons/CoreTime.svg</normaloff>:/icons/CoreTime.svg</iconset>
+          <normaloff>:/icons/coretime.svg</normaloff>:/icons/coretime.svg</iconset>
         </property>
         <property name="iconSize">
          <size>
